@@ -1,0 +1,78 @@
+/*清除浏览器默认样式*/
+body{
+	margin:0px;
+	padding: 0px;
+}
+
+/*设置主容器样式*/
+.container{
+	margin:20px;
+	padding:20px 140px 20px 220px;
+	background-color: #eee;
+	border: 1px solid #999;	
+	overflow: hidden;
+}
+.main{
+	float: left;
+	width: 100%;
+}
+.content{
+	margin: 0 20px;
+	padding: 20px;
+	/*设置边框和背景颜色*/
+	border: 1px solid #999;
+	background-color: #fff;
+}
+.left{
+	/*定宽块级元素设置浮动*/
+	float: left;
+	width: 200px;
+	/*设置相对于主容器定位*/
+	position: relative;
+	left: -200px;
+
+	 /*不太懂这个*/
+	margin-left: -100%;
+
+	/*设置边框和背景颜色*/
+	border: 1px solid #999;
+	background-color: #fff;
+}
+.right{
+	float: left;
+	width: 120px;
+	/*设置相对于主容器定位*/
+	position: relative;
+	right: -122px;
+
+	/*神奇的设置*/
+	margin-left: -122px;
+
+	/*设置边框和背景颜色*/
+	border: 1px solid #999;
+	background-color: #fff;
+}
+img{
+	width: 80px;
+	height: 60px;
+}
+.name{
+	float: right;
+	margin-top: 0px;
+}
+.logo{
+	/*块状元素显示*/
+	display: block;
+	margin: 20px;
+}
+
+@media screen and (max-width: 768px) {
+	.left,.right,.main{
+		float: none;
+		width: auto;
+		margin: 0 auto;
+	}
+	.container{
+		padding: 20px;
+	}
+}

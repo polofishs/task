@@ -1,0 +1,122 @@
+
+*{
+	padding: 0;
+	margin: 0;
+}
+body{
+	background-color: #eeeeee;	
+}
+header{
+	background-color: #6A4028;
+	height: 80px;
+}
+header img{
+	padding-left: 50px;
+	float: left;
+	height: 80px;
+	width: 120px;
+}
+
+
+nav ul{
+	float: right;
+}
+nav ul li{
+	/*display: inline;*/
+	/*line-height: 80px;*/
+	float: left;
+	margin-top:30px; 
+	margin-right: 30px;
+	color: white;
+	/*list-style-type: square;*/
+}
+nav a{
+	color: white;
+}
+nav a:hover{
+	color: blue;
+}
+
+/*文章开始*/
+article{
+	background-color: #DAC9A6;
+	margin: 10px 50px 10px 50px;
+	padding: 20px;
+}
+aside{
+	background-color: #DAC9A6;
+	margin: 10px 50px 10px 50px;
+	padding: 20px;
+}
+
+/*图片*/
+figure{
+	padding-left: 50px;
+}
+
+article ol{
+	padding-left: 50px;
+}
+
+/*脚注*/
+footer{
+	background-color: #6A4028;
+	/*水平居中*/
+	text-align: center;
+	/*垂直居中*/
+	height: 50px;
+	line-height: 50px;
+	color: white;
+}
+
+/*表格*/
+table{
+	border: 1px solid fff;
+	border-collapse: collapse;
+	width: 1000px;
+	height: 150px;
+	font-size: 12px;
+}
+table th{
+	background-color: black;
+    color: white;
+    text-align: left;
+}
+/*边框样式*/
+table tr,td,th{
+	border: 1px solid #fff;
+}
+article .total{
+	background-color: gray;
+}
+/*标题那里的竖线*/
+aside h2{
+	border-left: 2px solid #fff;
+	padding-left: 10px;
+}
+
+/*表单*/
+form{
+	width: 50%;
+	margin: 0 auto;
+	display: block;
+	padding: 5px;
+}
+form label{
+    display: inline-block;
+    width: 20%;
+    text-align: right;
+    float: left;
+}
+
+form span.prompt{
+	color: #78c;
+	margin-left: 20%;
+	font-size: 12px;
+}
+form button{
+	border-radius: 5px;
+	height: 30px;
+	width: 70px;
+	display: block;
+}
