@@ -1,0 +1,30 @@
+/*清除浏览器默认样式*/
+*{
+	margin:0;
+	padding: 0;
+}
+.content{
+	width: 400px;
+	height: 200px;
+	background-color: #ccc;
+	position: absolute;
+	top:50%;
+	left:50%;    
+	/*到这一步，其实左上角已经位于浏览器中心了，
+	接下来要做的是把四边形的中心移到浏览器的中心*/
+
+	margin-top: -100px;    /*是高的负一半*/
+	margin-left: -200px;   /*是宽的负一半*/
+	overflow: hidden;      /*把超出父元素的子元素部分隐藏掉*/
+}
+.last{
+	width: 100px;
+	height: 100px;
+	background-color: #fc0;
+
+	/*相对于父元素content进行定位*/
+	position: relative;     
+	top: -50px;
+	left: -50px;
+
+}

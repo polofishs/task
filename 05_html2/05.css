@@ -1,0 +1,175 @@
+
+*{
+	padding: 0;
+	margin: 0;
+}
+body{
+	width:100%;
+	height: 100%;
+	background-color: #ccc;
+}
+
+
+/*导航栏*/
+header{
+	background-color: black;
+	height: 60px;
+}
+/*将图片左浮动，这样列表才能和图片在同一行*/
+header img{
+	height: 60px;
+	width: 100px;
+	float: left;
+	margin-left: 30px;
+}
+/*将整个链接右浮动*/
+nav ul{
+	float: right;
+}
+/*再将列表左浮动，列表就会在一行上*/
+nav ul li{
+	float: left;
+	margin: 10px;
+	line-height: 50px;
+	color: white;   
+}
+/*设置链接样式*/
+nav ul li a{
+	color: white;
+	font-size: 14px; 
+	text-decoration: none;
+}
+
+
+
+/*文章版块——宽度以及样式*/
+article{
+	background-color: white;
+	border: 1px solid #cca;
+	margin: 20px 480px 20px 20px;
+	padding: 20px;
+	line-height: 30px;
+}
+
+
+/*第二版列表*/
+.two li{
+    list-style: none;
+}
+
+
+/*图片板块*/
+.pic img{
+	width: 110px;
+	height: 80px;
+}
+.pic li{
+	list-style: none;
+	width: 110px;
+	height: 100px;
+	display: inline-block;
+	border: 1px solid #ccc;
+	margin: 20px;
+	padding: 20px;
+}
+.pic li p{
+	text-align: center;
+}
+
+
+/*表格版块*/
+article table{
+	border: 1px solid #ccc;
+	/*清除表格间的间隙*/
+	border-collapse: collapse;
+	/*定宽*/
+	width: 800px;
+	height: 140px;
+	/*居中对齐*/
+	margin: 0px auto 10px auto;
+	font-size: 12px;
+}
+article table th{
+	background-color: black;
+	color: white;
+	text-align: left;
+}
+article table th,tr,td{
+	border: 1px solid #ccc;
+}
+article .thelast{
+	background-color: #ccc;
+	color: black;
+}
+.paiming{
+	display: block;
+	margin-left: 30px;
+}
+
+
+/*侧边栏*/
+aside{
+	background-color: white;
+	border:1px solid #cca;
+	padding: 20px;
+	/*定宽*/
+	width: 370px;
+	/*划重点！！！！！！！！！设置绝对定位  完成两栏布局*/
+	position: absolute;
+	right: 20px;
+	top: 80px;
+}
+aside h2{
+	border-left: 2px solid black;
+	padding-left: 10px;
+}
+
+/*表单*/
+form{
+	/*行间距*/
+	line-height: 30px;
+	/*变成定宽块状元素，以便于居中*/
+	display: block;	
+	width: 80%;
+	padding:10px;
+	margin: 0 auto;
+}
+/*提示信息*/
+aside form span{
+	color: #ccc;
+	font-size: 12px;
+	margin-left:42%;
+}
+/*格式对齐*/
+aside form label{
+	/*定宽块状元素*/
+	display: inline-block;
+	width:40%;
+	padding-right: 10px;
+	/*定宽了才能实现左浮动和文字右对齐*/
+	float: left;
+	text-align: right;
+}
+aside form button{
+	width: 60%;
+    height: 35px;
+    margin-left: 20%;
+    border-radius: 5px;
+    background-color: #00bbff;
+    color: white;
+    font-size: 18px;
+}
+
+
+/*脚注*/
+footer{
+	background-color: black;
+	color: white;
+    /*水平居中*/
+	text-align: center;
+	height: 50px;
+	/*定宽*/
+	width: 100%;
+	/*垂直居中*/
+	line-height: 50px;
+}

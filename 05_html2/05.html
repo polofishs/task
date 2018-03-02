@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>布局2</title>	
+	<link rel="stylesheet" type="text/css" href="05.css">
+</head>
+<body>
+  <header>
+  	<h2><img src="cat.png"></h2>
+  	<nav>
+  		<ul class="one">
+  			<li><a href="#">导航01</a></li>
+  			<li><a href="#">导航02</a></li>
+  			<li><a href="#">导航03</a></li>
+  			<li><a href="#">导航04</a></li>
+  		</ul>
+  	</nav>
+  </header>
+  <section>
+  	<article>
+  		<h2>文章一级标题</h2>
+  		<h3>文章二级标题</h3>
+  		<h4>作者时间</h4>
+  		<p>爱的物理学 质量与体积不成正比 那个紫罗兰一般小巧的丫头 那个似花瓣一般摇曳的丫头 以远超过地球的质量吸引着我 一瞬间 我就如同牛顿的苹果般 不受控制地滚落在她脚下 咚地一声 咚咚一声 从天空到大地心脏持续令人眩晕的摆动 那是初恋</p>
+  		<img src="cat.png">
+  	</article>
+
+
+  	<article>
+  		<h2>文章一级标题</h2>
+  		<h3>文章二级标题</h3>
+  		<h4>作者时间</h4>
+  		<p>爱的物理学 质量与体积不成正比 那个紫罗兰一般小巧的丫头 那个似花瓣一般摇曳的丫头 以远超过地球的质量吸引着我 一瞬间 我就如同牛顿的苹果般 不受控制地滚落在她脚下 咚地一声 咚咚一声 从天空到大地心脏持续令人眩晕的摆动 那是初恋</p>
+  		<img src="cat.png">
+  		<ul class="two">
+  			<li>列表01</li>
+  			<li>列表02</li>
+  			<li>列表03</li>
+  		</ul>
+  	</article>
+
+  	<article>
+  		<h2>图片</h2>
+  		<ul class="pic">
+  			<li>
+  				<p>好看的图片</p>
+  				<img src="cat.png">
+  			</li>
+  			<li>
+  				<p>好看的图片</p>
+  				<img src="cat.png">
+  			</li>
+  			<li>
+  				<p>好看的图片</p>
+  				<img src="cat.png">
+  			</li><br>
+  			<li>
+  				<p>好看的图片</p>
+  				<img src="cat.png">
+  			</li>
+  			<li>
+  				<p>好看的图片</p>
+  				<img src="cat.png">
+  			</li>
+  			<li>
+  				<p>好看的图片</p>
+  				<img src="cat.png">
+  			</li>
+  		</ul>  		
+  	</article>
+
+  	<article>
+  		<h2>最后一篇文章</h2>
+  		<h3>文章二级标题</h3>
+  		<h4>文章作者 时间</h4>
+  		<ol class="paiming">
+  			<li>排名01</li>
+  			<li>排名02</li>
+  			<li>排名03</li>
+  		</ol>
+  		<table>
+  			<thead>下面是一个表格</thead>
+  			<tr>
+  				<th>表头</th>
+  				<th>表头</th>
+  				<th>表头</th>
+  			</tr>
+  			<tr>
+  				<td>表内容单元格</td>
+  				<td>表内容单元格</td>
+  				<td><a href="#">操作</a></td>
+  			</tr>
+  			<tr>
+  				<td>表内容单元格</td>
+  				<td>表内容单元格</td>
+  				<td><a href="#">操作</a></td>
+  			</tr>
+  			<tr>
+  				<td>表内容单元格</td>
+  				<td>表内容单元格</td>
+  				<td><a href="#">操作</a></td>
+  			</tr>
+  			<tr class="thelast">
+  				<td>总计</td>
+  				<td colspan="2">1000</td>
+  			</tr>
+  		</table>
+  	</article> 
+
+
+    <aside>
+      <h2>这是侧栏</h2>
+      <form action="">
+          <label for="email">请输入邮箱地址</label>
+          <input type="text" name="email" id="email" placeholder="       这是一个文本输入框"><br>
+          <span>邮箱地址请按要求格式填入</span><br>
+       
+          <label for="password">请输入密码</label>
+          <input type="password" name="password" id="password"><br>
+          <label for="pw">请重复输入密码</label>
+          <input type="password" name="pw" id="pw"><br>
+          <span>密码请为6-16位英文数字</span><br>
+       
+          <label for="sex">性别</label>
+          <input type="radio" name="sex" value="male" checked="checked">男
+          <input type="radio" name="sex" value="female">女<br>
+       
+          <label for="city">城市</label>
+          <select>
+          	<option>上海</option>
+          	<option>深圳</option>
+          	<option selected="selected">广州</option>
+          	<option>北京</option>
+          </select><br>
+       
+          <label for="like">爱好</label>
+          <input type="checkbox" name="">运动
+          <input type="checkbox" name="">唱歌
+          <input type="checkbox" name="">玩游戏<br>
+   
+          <label for="describe">个人描述</label>
+          <textarea name="describe" cols="18" rows="5">.....</textarea><br>
+          <button type="submit" name="submit">确认提交</button>
+      </form>
+    </aside>
+  </section>
+  <footer>
+  	  <p>&copy;版权所有</p>
+  </footer>
+</body>
+</html>
