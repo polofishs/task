@@ -10,7 +10,7 @@ body{
 	padding:20px 140px 20px 220px;
 	background-color: #eee;
 	border: 1px solid #999;	
-	overflow: hidden;
+	overflow: hidden;   	/*清除浮动*/
 }
 .main{
 	float: left;
